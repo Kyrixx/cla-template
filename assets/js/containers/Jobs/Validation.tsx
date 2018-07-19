@@ -2,11 +2,9 @@ import * as React from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from "redux";
 import jobActionCreator from "../../actions/jobActionCreator";
-import domainActionCreator from "../../actions/domainActionCreator";
 import { Job } from "wizbii";
-import { DomainList, JobTrainingSetInterface, JobTrainingSetUnknownInterface } from '../../index.d'
+import { DomainList, JobTrainingSetInterface } from '../../index.d'
 import * as R from 'ramda'
-import utilsActionCreator from "../../actions/utilsActionCreator";
 import moment = require("moment");
 
 // En Typescript, on est obligé de définir toutes les variables qui transitent.
@@ -17,11 +15,7 @@ interface Props {
     domainSelected: string,
     startTime: any,
     jobLanguage: string,
-    jobList: () => void,
-    domainList: () => void,
     validateJob: (data: JobTrainingSetInterface) => void,
-    unknownJob: (data: JobTrainingSetUnknownInterface) => void,
-    showModal: () => void,
 }
 
 
@@ -74,7 +68,7 @@ class Validation extends React.Component<Props, any> {
                         className="btn btn-primary btn-block"
                         onClick={
                             () => {
-                                this.props.validateJob(this.onValidate());
+                                this.props.validateJob(this.onValidate()); // Au clic sur le bouton, je fais appel à mon action
                             }
                         }
                     >Valider</button>
@@ -95,10 +89,6 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
     validateJob: bindActionCreators(jobActionCreator.validateJob, dispatch),
-    jobList: bindActionCreators(jobActionCreator.fetchJobs, dispatch),
-    domainList: bindActionCreators(domainActionCreator.fetchDomains, dispatch),
-    unknownJob: bindActionCreators(jobActionCreator.unknownJob, dispatch),
-    showModal: bindActionCreators(utilsActionCreator.showBugSubmitModal, dispatch),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Validation);
