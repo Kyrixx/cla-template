@@ -1,0 +1,63 @@
+.table-responsive .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.cell-display {
+  vertical-align: middle !important;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_desc_disabled:after {
+  display: none;
+}
+
+.ibox-content.list {
+  padding: 0 15px;
+  margin-bottom: 50px;
+
+  .panel.b-r-xs {
+
+    .panel-body {
+      padding: 15px 15px 0 15px;
+    }
+  }
+}
+
+table.dataTable-custom {
+  clear: both;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: separate !important;
+}
+
+table.table-bordered.dataTable-custom th, table.table-bordered.dataTable-custom td {
+  border-left-width: 0;
+  outline: none;
+}
+
+table.table-bordered.dataTable-custom tbody th, table.table-bordered.dataTable-custom tbody td {
+  border-bottom-width: 0;
+}
+
+table.table-bordered.dataTable-custom th:last-child, table.table-bordered.dataTable-custom th:last-child, table.table-bordered.dataTable-custom td:last-child, table.table-bordered.dataTable-custom td:last-child {
+  border-right-width: 0;
+}
+
+.scrolling-list {
+  height: 53vh;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+table {
+  margin-bottom: 0 !important;
+}
+
+.name-column-fixed {
+  max-width: 200px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

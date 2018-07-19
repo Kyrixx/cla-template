@@ -1,0 +1,33 @@
+.panel-section{
+  padding: 10px;
+}
+
+.panel-success>.panel-section{
+  border-top: 1px solid #1c84c6;
+}
+
+.panel-info>.panel-section{
+  border-top: 1px solid #23c6c8;
+}
+
+.panel-title{
+  display: inline-block !important;
+}
+
+.panel-tools {
+  float: right;
+
+  a {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #fff;
+  }
+}
+
+.panel-default {
+
+
+  .panel-tools a {
+    color: #333;
+  }
+}

@@ -1,0 +1,22 @@
+$dotWidth: 4px;
+
+.dashline {
+  position: relative;
+  height: 32px;
+
+  hr {
+    margin: 0;
+    width: calc(100% - 30px);
+    position: absolute;
+    top: calc(50% - (#{$dotWidth} / 2 ));
+    border-top: $dotWidth dotted #ccc;
+  }
+
+  hr.scenario-dash {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - (#{$dotWidth} / 2 ));
+    border-top: $dotWidth dotted #ccc;
+  }
+}

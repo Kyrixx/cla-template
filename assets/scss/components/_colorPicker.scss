@@ -1,0 +1,23 @@
+svg.clockpicker-svg > g > circle.clockpicker-canvas-bg.clockpicker-canvas-bg-trans {
+  fill: rgba(26, 179, 48, .25);
+}
+
+svg.clockpicker-svg > g > line {
+  stroke: #1ab394;
+}
+
+svg.clockpicker-svg > g > circle.clockpicker-canvas-bearing {
+  fill: #1ab394;
+}
+
+svg.clockpicker-svg > g > circle.clockpicker-canvas-fg {
+  fill: #1ab394;
+}
+
+svg.clockpicker-svg > g > circle.clockpicker-canvas-bg {
+  fill: rgba(26, 179, 48, .25);
+}
+
+.clockpicker-tick.active, .clockpicker-tick:hover {
+  background-color: rgba(26, 179, 48, .25);
+}

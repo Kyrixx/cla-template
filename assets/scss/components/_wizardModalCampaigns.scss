@@ -1,0 +1,257 @@
+form.wizard > .steps > ul > li {
+  width: 20%;
+}
+
+.wizard > .content > .body div.bootstrap-tagsinput {
+  border: 1px solid #e5e6e7;
+
+  input {
+    border: none;
+    display: inline-block;
+  }
+}
+
+.tags-list .tag.label.label-primary {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.filter-wrapper {
+  margin-bottom: 15px;
+}
+
+.wizard > .content {
+  background: transparent;
+  padding: 0;
+  margin: 0 5px 10px;
+  overflow: visible;
+}
+
+.wizard-big.wizard > .content {
+  min-height: initial;
+}
+
+.wizard > .actions {
+  padding: 0 2.5%;
+}
+
+.wizard > .content > .body {
+  width: 100%;
+}
+
+.wizard > .content > .body > .resume-wizard {
+  min-height: 48px;
+  background: $gray;
+  border-radius: 5px;
+  padding: 1% 2.5%;
+}
+
+.wizard > .content > .body > .content-wizard {
+  padding: 2.5%;
+  background: $gray;
+  border-radius: 5px;
+  height: 95%;
+}
+
+.wizard > .content > .body > .content-wizard > .line-wizard {
+  margin-bottom: 10px;
+}
+
+.wizard > .steps {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+div.separate-line-wizard {
+  height: 10px;
+  background: #f8fafb;
+}
+.m-t-5 {
+  margin-top: 5px;
+}
+
+div.campaign-name {
+  margin-top: 5px;
+  margin-bottom: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+div.type-select {
+  margin-bottom: 10px;
+
+  &.hr {
+    margin-top: 10px;
+  }
+}
+
+div.type-select-title {
+  box-sizing: border-box;
+
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 26px;
+  font-weight: 600;
+  border-bottom:1px solid #e5e5e5;
+
+  .close {
+    font-size: 26px;
+  }
+
+  div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.inmodal .modal-header {
+  padding: 10px 20px;
+  text-align: left;
+
+  .close {
+    font-size: 26px;
+  }
+
+  div.wizard-title {
+    font-size: 26px;
+    font-weight: 600;
+
+    div {
+      width: 50%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+.modal-body {
+  padding: 15px 0;
+  border-radius: 4px;
+}
+
+.row > button.close {
+  padding: 0 2.5%;
+}
+
+.tag.label.label-danger.type {
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+
+div.type-select-content {
+  padding: 0 2.5%;
+  margin: 0 2.5%;
+  display: inline-block;
+  width: 95%;
+}
+
+.widget-padding {
+  padding: 0 1%;
+}
+
+.border-focus {
+  border-color: $color-inspinia-green !important;
+}
+
+.form-group > .checkbox.col-xs-6 {
+  margin-left: 10px;
+}
+
+.form-group > .checkbox-compense {
+  margin-left: -10px;
+}
+
+.wizard > .actions li:first-child a, .wizard > .actions li:first-child a:active, .wizard > .actions li:first-child a:hover {
+  background: $gray;
+  color: $gray--ish;
+}
+
+.p-l-wizard {
+  padding-left: 2.5%;
+}
+
+.input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0 4px 4px 0;
+}
+
+.input-group-addon:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.fa.fa-file.fileinput-exists {
+  margin-right: 5px;
+}
+
+.wizard > .content > .body input{
+  display: inline-block;
+  border: 1px solid #e5e6e7;
+}
+
+.popover.clockpicker-popover {
+  z-index: 9999;
+}
+
+.form-control.clock-picker[readonly] {
+  background-color: white;
+}
+
+.input-group.date, .input-group.clock {
+  float: left;
+}
+
+.chosen-container {
+  border-radius: 4px !important;
+
+  .chosen-single {
+    cursor: pointer;
+  }
+}
+
+.chosen-container {
+
+  .chosen-single {
+    cursor: pointer;
+    border-radius: 4px !important;
+  }
+
+  //.chosen-results {
+  //  max-height: 100px;
+  //}
+}
+
+.segment-line-wrapper {
+  margin-bottom: 15px;
+}
+
+.segment-input, .number-input {
+  border: 1px solid #e5e6e7 !important;
+  height: 34px !important;
+}
+
+.campaign-query-content {
+  .row.segment-line-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.relative .same-hour-container {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 0;
+}
+
+.date[readonly] {
+  background: white;
+}
+
+.input-day-container {
+  display: inline-block;
+  margin: 10px 5px 0;
+}

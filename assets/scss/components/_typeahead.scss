@@ -1,0 +1,21 @@
+ul.typeahead, ul.rbt-menu {
+
+  li {
+    list-style-type: none;
+
+    a {
+      border-radius: 0;
+
+      &:hover {
+        color: white;
+        text-decoration: none;
+        background-color: $color-inspinia-green;
+        outline: 0;
+      }
+    }
+  }
+}
+
+.rbt.open.focus {
+  border-color: $color-inspinia-green !important;
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": false,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2015.promise",
+      "es2015.iterable"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "target": "es5",
+    "jsx": "react",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": [
+    "./assets/js/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,57 @@
+.btn-giant {
+  height: 50px;
+  font-size: 18px;
+}
+
+.btn-w-m-90 {
+  min-width: 90px;
+}
+
+.btn-w-primary-hover:hover {
+  background-color: #1ab394;
+  border-color: #1ab394;
+  color: #FFFFFF !important;
+}
+
+.btn-w-warning-hover:hover {
+  background-color: #f8ac59;
+  border-color: #f8ac59;
+  color: #FFFFFF !important;
+}
+
+.btn-w-success-hover:hover {
+  background-color: #1c84c6;
+  border-color: #1c84c6;
+  color: #FFFFFF !important;
+}
+
+.btn-w-danger-hover:hover {
+  background-color: #ed5565;
+  border-color: #ed5565;
+  color: #FFFFFF !important;
+}
+
+.btn-w-info-hover:hover {
+  background-color: #23c6c8;
+  border-color: #23c6c8;
+  color: #FFFFFF !important;
+}
+
+.btn-info[disabled] {
+  background-color: transparent;
+
+  &:hover {
+    background-color: transparent;
+    color: #23c6c8;
+  }
+}
+
+.btn-white[disabled] {
+  color: #cacaca !important;
+  border-color: #e7eaec !important;
+
+  &:hover {
+    color: #cacaca !important;
+    border-color: #ccc !important;
+  }
+}

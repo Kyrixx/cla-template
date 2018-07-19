@@ -1,0 +1,379 @@
+@import "~frontend-assets/src/scss/commons/commons";
+
+$min-window: 1237px;
+
+#page-wrapper {
+  height: 100%;
+  margin: 0;
+  @media (min-width: #{$md-min}) {
+    margin: 0 0 0 100px;
+  }
+}
+
+.full-height {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+}
+
+.text-red {
+  color: red;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+td {
+  &.dataTables_empty {
+    display: none;
+  }
+}
+
+.float-left {
+  float: left !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.row-top {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+}
+
+.row-middle {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.row-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+
+button.btn.btn-white {
+  color: #676a6c;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 700px;
+  }
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.form-control:focus, .has-success .form-control, .has-success .form-control:focus, .single-line:focus, div.bootstrap-tagsinput:focus {
+  border-color: #1ab394 !important;
+}
+
+.wizard > .content > .body textarea, .wizard > .content > .body div.bootstrap-tagsinput {
+  display: block;
+  border: 1px solid #ccc;
+}
+.b-rs-none {
+  border-radius: 0 !important;
+}
+
+.p-r-none {
+  padding-right: 0;
+}
+
+.half-width-i-b {
+  width: 50%;
+  display: inline-block;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.f-w-700 {
+  font-weight: 700;
+}
+
+.border-radius-left-4 {
+  border-radius: 4px 0 0 4px;
+}
+
+.input-group.date > .input-group > .input-group-addon {
+  border-radius: 0 4px 4px 0;
+}
+
+.no-float {
+  float: none !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.col-mid {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.col-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+
+.m-r-3 {
+  margin-right: 3px;
+}
+
+.m-l-3 {
+  margin-left: 3px;
+}
+
+.p-l-none {
+  padding-left: 0;
+}
+
+.p-l-xs {
+  padding-left: 5px;
+}
+
+.p-r-xs {
+  padding-right: 5px;
+}
+
+.m-n-l-12 {
+  margin-left: -12px;
+}
+
+.m-w-5 {
+  margin-right : 5px !important;
+  margin-left: 5px !important;
+}
+
+.m-h-none {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.v-a-top {
+  vertical-align: top;
+}
+
+.flex-mid {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-start {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-center-end {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-bottom {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.padding-query-first-element {
+  padding: 0 5px 0 0 !important;
+}
+
+.padding-query-element {
+  padding: 0 5px 0 5px !important;
+}
+
+.padding-query-last-element {
+  padding: 0 0 0 5px !important;
+}
+
+.rbt {
+  cursor: text;
+}
+
+.btn {
+  margin: 2px;
+
+}
+
+.domainName {
+  padding: 1px;
+  min-height: 30px;
+  vertical-align: middle;
+  font-weight: bold;
+  @media (max-width: #{$min-window}){
+    text-align: center;
+  }
+}
+
+.animated {
+  animation-duration: 2s;
+}
+
+.jobTitle {
+  text-decoration: underline;
+  font-size: large;
+}
+
+
+[class*="domainBlock-"] {
+  min-height: 60px;
+
+  @media (max-width: 979px){
+    min-height: 100px;
+  }
+
+  @media #{$lg-only} {
+    min-height: 200px;
+  }
+
+  & .btn {
+    width: 155px;
+  }
+
+  & .smallText {
+    width: 155px;
+  }
+}
+
+.domainBlock-4 {
+  @media (min-width: 979px) {
+    min-height: 160px;
+  }
+}
+
+.domainBlock-3 {
+  @media (min-width: 979px) {
+    min-height: 130px;
+  }
+}
+
+.domainBlock-2 {
+  @media #{$lg-only} {
+    min-height: 100px;
+  }
+}
+
+.domainBlock-1 {
+  @media #{$lg-only} {
+    min-height: 75px;
+  }
+}
+
+.tags {
+  cursor: default;
+
+  &:hover {
+    background-color: #1ab394;
+    border-color: #1ab394;
+  }
+}
+
+.buttonValidate {
+  text-align: center;
+  width: 25%;
+  box-sizing: border-box;
+
+  & .tooltiptext {
+    display: none;
+    width: 269px;
+    background-color: #bd0001;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 100%;
+  }
+
+  &:hover {
+    & .tooltiptext {
+      display:inherit;
+
+    }
+  }
+}
+
+.domainSelected {
+  background-color: #18a689;
+  border-color: #18a689;
+  color: #FFFFFF !important;
+}
+body {
+  background-color: #2f4050;
+}
+
+.language {
+  margin-top: 20px;
+  .col-md-6 {
+    align-items: center;
+  }
+}
+
+.form-group {
+  &.has-warning {
+    label {
+      color: orange;
+    }
+  }
+}
+
+.modal-body span {
+  padding: 0px 10px;
+}

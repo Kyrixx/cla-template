@@ -1,0 +1,48 @@
+@import 'variables/variables';
+
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import "~frontend-assets/src/scss/commons/commons";
+
+// Bootstrap
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Toastr
+@import "../../node_modules/toastr/toastr";
+
+// Font-awesome
+@import "~inspinia/inspinia/font-awesome/scss/font-awesome";
+
+@import "~inspinia/inspinia/scss/style";
+@import "~inspinia/inspinia/css/plugins/jsTree/style.css";
+@import "~inspinia/inspinia/css/plugins/nouslider/jquery.nouislider.css";
+@import "../../node_modules/icheck/skins/all.css";
+@import "../../node_modules/sweetalert/dist/sweetalert.css";
+
+
+// Basic CSS classes
+@import "base";
+
+// Override inspinia stuff
+@import "components/inspinia";
+@import "components/icheck";
+
+@import "components/typography";
+@import "components/navbar";
+@import "components/list";
+@import "components/wizardModalCampaigns";
+@import "components/border";
+@import "components/templateChooser";
+@import "components/utils";
+@import "components/campaignCsv";
+@import "components/tagsInput";
+@import "components/detail";
+@import "components/timeline";
+@import "components/colorPicker";
+@import "components/flex";
+@import "components/template";
+@import "components/btn";
+@import "components/touchSpin";
+@import "components/templateMapping";
+@import 'components/panel';
+@import 'components/typeahead';
+@import 'components/select2';

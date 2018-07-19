@@ -1,0 +1,16 @@
+.translucid {
+  opacity: .6;
+}
+
+a.disabled-link {
+  pointer-events: none;
+  cursor: default;
+
+  div {
+    opacity: 0.6;
+  }
+}
+
+.position-relative {
+  position: relative;
+}

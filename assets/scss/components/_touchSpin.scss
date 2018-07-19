@@ -1,0 +1,23 @@
+.input-group-addon.bootstrap-touchspin-postfix {
+  border-radius: 0 !important;
+}
+
+.form-control.number-input {
+  border-radius: 4px 0 0 4px !important;
+}
+
+.form-control.segment-input {
+  border-radius: 4px !important;
+}
+
+input[type=number].segment-input::-webkit-inner-spin-button,
+input[type=number].segment-input::-webkit-outer-spin-button,
+input[type=number].number-input::-webkit-inner-spin-button,
+input[type=number].number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin: 0;
+}

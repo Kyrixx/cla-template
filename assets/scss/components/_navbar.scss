@@ -1,0 +1,11 @@
+.nav-header {
+  padding: 10px 25px;
+}
+
+.nav-header.title {
+
+  & h1 {
+    color: #fff;
+    font-weight: 600;
+  }
+}
